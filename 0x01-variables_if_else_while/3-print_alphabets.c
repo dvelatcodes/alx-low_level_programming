@@ -19,12 +19,12 @@ int main(void)
 			putchar(lower);
 			lower++;
 		}
-		if (lower == 'z')
+		if (lower >= 'z')
 		{
 			putchar(upper);
 			upper++;
 		}
-		putchar('\n');
 	}
+	putchar('\n');
 	return (0);
 }
