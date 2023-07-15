@@ -8,13 +8,9 @@
 int main(void)
 {
 	int firstNum = 48;
-
 	int secNum = 49;
-
 	int lastNum = 50;
-
 	int checker = 0;
-
 	int checker2 = 0;
 
 	while (firstNum < 56)
